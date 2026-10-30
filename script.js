@@ -42,7 +42,6 @@ intro.from("#hero h1", {
 
 // E3: REDUCED MOTION SUPPORT + SCROLL EFFECTS
 const media = gsap.matchMedia();
-
 media.add(
     {
         reduceMotion: "(prefers-reduced-motion: reduce)",
